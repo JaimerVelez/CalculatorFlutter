@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:mi_primera_app/presentation/screens/calculator_screen.dart';
 
 void main() {
-  runApp(const Velez());
+  runApp(const Calculator());
 }
 
-class Velez extends StatelessWidget {
-  const Velez({super.key});
+class Calculator extends StatelessWidget {
+  const Calculator({super.key});
 
   @override
   Widget build(BuildContext context) {
